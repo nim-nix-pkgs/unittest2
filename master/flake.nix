@@ -1,5 +1,5 @@
 {
-  description = ''unittest fork focused on parallel test execution'';
+  description = ''unittest fork with support for parallel test execution'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-unittest2-master.flake = false;
   inputs.src-unittest2-master.owner = "status-im";
-  inputs.src-unittest2-master.ref   = "refs/heads/master";
+  inputs.src-unittest2-master.ref   = "master";
   inputs.src-unittest2-master.repo  = "nim-unittest2";
   inputs.src-unittest2-master.type  = "github";
   
